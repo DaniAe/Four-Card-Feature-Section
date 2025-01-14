@@ -9,6 +9,10 @@
   font-size: 62.5%;
 }
 
+body{
+  background-color: hsl(0, 0%, 98%);
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -17,7 +21,7 @@ main {
   justify-content: center;
   margin: auto;
   /* flex: 0 1 auto; */
-  gap: 2rem;
+  gap: 3rem;
   max-width: 380px;
 }
 
@@ -44,11 +48,9 @@ h2 {
 }
 
 .card {
-  /* width: 100%; */
   padding: 3rem;
   border-radius: 0.5rem;
-  box-shadow: 0 1rem 1rem 0 hsl(214, 38%, 87%);
-  /* border: 1px solid grey; */
+  box-shadow: 0 1rem 2rem 0 hsl(214, 38%, 87%);
 }
 
 .card.one {
@@ -69,7 +71,7 @@ h2 {
 
 .card h3 {
   color: hsl(234, 12%, 34%);
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding-bottom: .5rem;
   font-weight: 600;
 }
@@ -82,7 +84,7 @@ h2 {
 }
 
 .card img {
-  width: 5rem;
+  width: 6rem;
   float: right;
 }
 
@@ -94,7 +96,7 @@ h2 {
   }
 
   .heading h1, .heading h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .heading h1, .heading h2, .heading p {
